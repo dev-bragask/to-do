@@ -1,0 +1,37 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    color: var(--text-button-footer-color);
+    background: var(--background-button);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s;
+    }
+  }
+
+  @media(max-width:500px) {
+    p {
+      font-size: 12px;
+    }
+
+    button {
+      font-size: 12px;
+    }
+  }
+}

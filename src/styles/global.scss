@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  // Backgrounds //
+  --background-button: #7c3aed;
+  --background-button-svg-task: rgb(228, 53, 37);
+  --background-task: rgba(158, 157, 157, 0.116);
+  --background-button-task: rgba(158, 157, 157, 0.158);
+
+  // Colors //
+  --label-alert-color: #F50018;
+  --title-header-color: rgb(0, 0, 0, 0.5);
+  --svg-hover-color: #FFFF;
+  --text-task-color: #27272e;
+  --text-button-footer-color: #FFFF;
+
+  // Borders //
+  --border-input-header: 1px solid rgba(0, 0, 0, .3);
+
+  // Box shadows //
+  --box-shadow-body: .0rem .4rem 3.2rem rgba(0, 0, 0, 0.15);
+  --box-shadow-scrollbar: inset 0 0 2px grey;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todoContainer {
+  width: 34rem;
+  height: 48rem;
+  padding: 2.1rem;
+
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow-body);
+
+  @media (max-width:500px) {
+    width: 30rem;
+    height: 44rem;
+  }
+}
