@@ -1,8 +1,8 @@
 <h1 align="center">
-  <strong>to-do</strong> 
+  <strong>to-do</strong>
 </h1>
 <p align="center">
-<a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
@@ -16,9 +16,13 @@
 </p>
 
 ## 💻 Projeto
-O to-do é um projeto simples de gerenciamento de tarefas, desenvolvido para ajudar você a manter-se organizado(a) e produtivo(a) no seu dia a dia. Com esta aplicação, é possível adicionar, marcar como concluídas e remover tarefas de forma fácil e intuitiva.
+O to-do é um projeto simples de gerenciamento de tarefas, desenvolvido para ajudar você a manter-se organizado(a) e
+produtivo(a) no seu dia a dia. Com esta aplicação, é possível adicionar, marcar como concluídas e remover tarefas de
+forma fácil e intuitiva.
 
-O objetivo deste projeto é aprimorar minhas habilidades em React, além de explorar e aprender a utilizar o LocalStorage como uma ferramenta para armazenar dados localmente no navegador do usuário, uma ferramenta valiosa para criar experiências de usuário mais ricas e interativas.
+O objetivo deste projeto é aprimorar minhas habilidades em React, além de explorar e aprender a utilizar o LocalStorage
+como uma ferramenta para armazenar dados localmente no navegador do usuário, uma ferramenta valiosa para criar
+experiências de usuário mais ricas e interativas.
 
 ## ✨ Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -31,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🚀 Como executar
 - Clone o repositório
 ```
-git clone  https://github.com/dev-bragask/movies.git
+git clone https://github.com/dev-bragask/movies.git
 ```
 - Instale as dependências com `npm`
 
@@ -43,7 +47,11 @@ npm install
 npm run dev
 ```
 
-Agora você pode acessar [`localhost:5173`](http://localhost:5173) do seu navegador.
+Agora você pode acessar no <a href="http://localhost:5173" target="_blank"
+  rel="noopener noreferrer">localhost:5173</a> do seu navegador.
+
+Para ver melhor o projeto acesse esse link: <a href="https://dev-bragask-to-do.vercel.app/" target="_blank"
+  rel="noopener noreferrer">https://dev-bragask-to-do.vercel.app/</a>
 
 ## 📄 Licença
 
